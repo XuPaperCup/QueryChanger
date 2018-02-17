@@ -9,3 +9,4 @@ api:
  - 3.0.0-ALPHA12
 load: POSTWORLD
 author: PluginSanctuary
+# code taken from FakePlayerSlots, but modified to work better.
