@@ -1,0 +1,11 @@
+name: QueryChanger
+description: Changes the server slots to something which it possibly isn't
+main: QueryChanger\QueryChanger
+version: 1.0.2
+api:
+ - 3.0.0-ALPHA9
+ - 3.0.0-ALPHA10
+ - 3.0.0-ALPHA11
+ - 3.0.0-ALPHA12
+load: POSTWORLD
+author: PluginSanctuary
