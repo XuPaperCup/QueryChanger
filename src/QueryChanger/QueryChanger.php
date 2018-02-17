@@ -7,7 +7,7 @@ use pocketmine\entity\Effect;
 use pocketmine\utils\Config;
 use pocketmine\event\Listener;
 
-class Main extends PluginBase implements Listener {
+class QueryChanger extends PluginBase implements Listener {
 	
 	private $config;
 	
