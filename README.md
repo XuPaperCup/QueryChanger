@@ -1,2 +1,6 @@
 # QueryChanger
-This can change the amount of users shown as connected to the server ⌨️⏲📡
+
+## Download PHAR
+
+
+### You can edit the amount at config.yml in plugins/QueryChanger
