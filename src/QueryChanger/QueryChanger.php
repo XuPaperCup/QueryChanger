@@ -19,6 +19,6 @@ class Main extends PluginBase implements Listener {
 	
 	public function onQueryRegenerate(QueryRegenerateEvent $event) {
 		$event->setPlayerCount($this->config->get("players-online"));
-		$event->setMaxPlayerCount($this->config->get("max-players"));
+		$event->setMaxPlayerCount($this->config->get("max-online"));
 	}
 }
