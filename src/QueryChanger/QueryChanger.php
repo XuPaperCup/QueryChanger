@@ -13,7 +13,7 @@ class Main extends PluginBase implements Listener {
 	
 	public function onEnable() {
 		@mkdir($this->getDataFolder());
-		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array("players-count" => 93, "max-players-count" => 927329));
+		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML, array("players-online" => 93, "max-online" => 927329));
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 	
